@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+html {
+  font-size: 14px;
+}
+
+body {
+  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #c5e1da;
+}
+
+@media (max-width: 560px) {
+  #main {
+    margin: 10px 10px 10px 10px;
+  }
+  .img-caption {
+    font-size: 14px;
+  }
+  p{
+    font-size:10px;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  #video-youtube{
+    diplay:none;
+  }
+}
+@media (min-width: 561px) {
+  #video-youtube{
+    width:779px;
+     height:438px;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px 10px 10px 10px;
+  margin: 0;
+}
+
+.img-caption {
+  margin: 10px auto;
+  text-align: justify;
+  max-width: 600px;
+}
+.img-caption p {
+  color:black;
+  font-weight:bold;
+}
+
+
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 40px;
+}
+
+li {
+  margin: 16px 0;
+}
+ul li{
+  color:gray;
+  font-size:16px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+p {
+  font-style: italic;
+  font-size:16px;
+  color: gray;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: justify;
+}
+#graphy-img{
+  margin-bottom: 25px;
+}
+section{
+  background: white;
+  padding-bottom:50px;
+  word-wrap: break-word;
+}
+#subtitle-head{
+  text-align:center;
+  font-weight:bold;
+}
+#tribute-link{
+  color:black;
+  font-weight:bold;
+  text-decoration:none;
+  font-size:25px;
+  margin-top:10px;
+}
